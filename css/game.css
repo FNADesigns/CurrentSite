@@ -1,0 +1,62 @@
+.body {
+	margin: 0;
+}
+.logo {
+	height: auto;
+	padding-left: 14px;
+	width: 80%;
+	color: black;
+}
+.topnav {
+	position: fixed
+}
+.topnav header {
+	display: block;
+	width: 14rem;
+	height: 100vh;
+	background: #92DF59;
+	margin: -9px;
+	padding-left: 10px;
+}
+.topnav ul {
+	list-style: none;
+	font-family: 'Corbel';
+	font-size: 25px;
+}
+.topnav ul li {
+	padding-top: 40px;
+	text-align: left;
+
+}
+.topnav ul li a {
+	text-decoration: none;
+	color: black;
+}
+.topnav ul li a:hover {
+	color: white;
+}
+.linked {
+	height: auto;
+	width: 40px;
+}
+.game {
+	position: absolute;
+	left: 600px;
+}
+.topnav {
+	animation: moveToLeft 1.5s ease-in;
+	animation: delay: 10ms;
+}
+.page {
+	animation: moveToLeft 2s ease-in;
+	animation-delay: 10ms;
+}
+
+@keyframes moveToLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100%;
+	}
+}

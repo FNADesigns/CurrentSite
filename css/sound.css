@@ -1,0 +1,105 @@
+.body {
+	margin: 0;
+}
+.logo {
+	height: auto;
+	padding-left: 14px;
+	width: 80%;
+}
+.topnav {
+	position: fixed;
+}
+.topnav header {
+	display: block;
+	width: 14rem;
+	height: 100vh;
+	background: #F09C3D;
+	margin: -9px;
+	padding-left: 10px;
+}
+.topnav ul {
+	list-style: none;
+	font-family: 'Corbel';
+	font-size: 25px;
+}
+.topnav ul li {
+	padding-top: 40px;
+	text-align: left;
+
+}
+.topnav ul li a {
+	text-decoration: none;
+	color: black;
+}
+.topnav ul li a:hover {
+	color: white;
+}
+.linked {
+	height: auto;
+	width: 40px;
+}
+.music {
+	position: absolute;
+	left: 350px;
+	top: 350px;
+	border-radius: 5px;
+	border-color: orange;
+	background: #1d1d1d;
+	padding: 20px;
+}
+.describe {
+	font-family: 'Corbel';
+	position: absolute;
+	text-align: left;
+	left: 350px;
+	top: 100px;
+	width: 300px;
+
+}
+.describe h2 {
+	font-size: 40px;
+}
+.describe p {
+	font-size: 20px;
+}
+.music2 {
+	position: absolute;
+	left: 850px;
+	top: 350px;
+	border-radius: 5px;
+	border-color: orange;
+	background: #1d1d1d;
+	padding: 20px;
+}
+.describe2 {
+	font-family: 'Corbel';
+	position: absolute;
+	text-align: left;
+	left: 850px;
+	top: 100px;
+	width: 300px;
+
+}
+.describe2 h2 {
+	font-size: 40px;
+}
+.describe2 p {
+	font-size: 20px;
+}
+.topnav {
+	animation: moveToLeft 1.5s ease-in;
+	animation: delay: 10ms;
+}
+.page {
+	animation: moveToLeft 2.5s ease-in;
+	animation-delay: 10ms;
+}
+
+@keyframes moveToLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100%;
+	}
+}

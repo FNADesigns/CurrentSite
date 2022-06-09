@@ -1,0 +1,145 @@
+.body {
+	margin: 0;
+}
+.logo {
+	height: auto;
+	padding-left: 14px;
+	width: 80%;
+	color: black;
+}
+.topnav {
+	position: fixed
+}
+.topnav header {
+	display: block;
+	width: 14rem;
+	height: 100vh;
+	background: #F7F89B;
+	margin: -9px;
+	padding-left: 10px;
+}
+.topnav ul {
+	list-style: none;
+	font-family: 'Corbel';
+	font-size: 25px;
+}
+.topnav ul li {
+	padding-top: 40px;
+	text-align: left;
+
+}
+.topnav ul li a {
+	text-decoration: none;
+	color: black;
+}
+.topnav ul li a:hover {
+	color: white;
+}
+.linked {
+	height: auto;
+	width: 40px;
+}
+.pixel {
+	position: absolute;
+	left: 200px;
+	top: 50px;
+}
+.pixel h2 {
+	font-family: 'Corbel';
+	position: absolute;
+	display: inline-block;
+	white-space: nowrap;
+	left: 750px;
+	top: 490px;
+	font-size: 35px;
+	color: white;
+}
+.pix{
+	position: absolute;
+	left: 150px;
+	background: #F7F89B;
+}
+.block {
+	position: absolute;
+	left: 575px;
+	top: 500px;
+}
+.corner {
+	position: absolute;
+	left: 130px;
+	top: -20px;
+}
+.corners {
+	position: absolute;
+	left: 1430px;
+	top: 500px;
+}
+.pixexamp {
+	position: absolute;
+	left: 350px;
+}
+.bexam {
+	position: relative;
+	left: 10px;
+	top: 600px;
+	z-index: 1;
+}
+.pixy {
+	position: absolute;
+	top: 750px;
+	z-index: 2;
+}
+.blocky {
+	position: absolute;
+	top: 1200px;
+	left: 233px;
+	z-index: 0;
+}
+.blocky h2 {
+	color: white;
+	z-index: 1;
+	position: absolute;
+	top: 400px;
+	left: 40%;
+	text-align: center;
+	font-family: 'Corbel';
+	font-size: 35px;
+}
+.vid {
+	position: absolute;
+	z-index: 1;
+	top: 600px;
+	left: 100px;
+}
+.vid h2 {
+	color: white;
+	position: relative;
+	top: -350px;
+	left: 700px;
+	z-index: 1;
+}
+.vid p {
+	color: white;
+	z-index: 1;
+	position: relative;
+	top: -350px;
+	left: 700px;
+	font-size: 18px;
+}
+.topnav {
+	animation: moveToLeft 1.5s ease-in;
+	animation: delay: 10ms;
+}
+.page {
+	animation: moveToLeft 2.5s ease-in;
+	animation-delay: 10ms;
+}
+
+@keyframes moveToLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100%;
+	}
+}

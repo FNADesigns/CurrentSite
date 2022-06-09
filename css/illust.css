@@ -1,0 +1,106 @@
+.body {
+	margin: 0;
+}
+.logo {
+	height: auto;
+	padding-left: 14px;
+	width: 80%;
+}
+.topnav {
+	position: fixed;
+	z-index: 1;
+}
+.topnav header {
+	display: block;
+	width: 14rem;
+	height: 100vh;
+	background: #60C2CB;
+	margin: -9px;
+	padding-left: 10px;
+}
+.topnav ul {
+	list-style: none;
+	font-family: 'Corbel';
+	font-size: 25px;
+}
+.topnav ul li {
+	padding-top: 40px;
+	text-align: left;
+
+}
+.topnav ul li a {
+	text-decoration: none;
+	color: black;
+}
+.topnav ul li a:hover {
+	color: white;
+}
+.linked {
+	height: auto;
+	width: 40px;
+}
+.gallery {
+	position: absolute;
+	top: 150px;
+	left: 400px;
+	z-index: 0;
+	height: 810px;
+	width: 1440px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallery img {
+	width: 720px;
+	height: 480px;
+}
+.environment {
+	position: absolute;
+	top: 2200px;
+	left: 400px;
+	height: 810px;
+	width: 1440px;
+	display: flex;
+	flex-wrap: wrap;
+	z-index: 0;
+}
+.environment img {
+	width: 720px;
+	height: 480px;
+}
+.character h2 {
+	font-family: 'Corbel';
+	color: black;
+	z-index: 0;
+	font-size: 60px;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 400px;
+}
+.background h2 {
+	font-family: 'Corbel';
+	color: black;
+	z-index: 0;
+	font-size: 60px;
+	text-align: center;
+	position: absolute;
+	top: 2000px;
+	left: 400px;
+}
+.topnav {
+	animation: moveToLeft 1.5s ease-in;
+	animation: delay: 10ms;
+}
+.page {
+	animation: moveToLeft 2s ease-in;
+	animation-delay: 10ms;
+}
+
+@keyframes moveToLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100%;
+	}
+}

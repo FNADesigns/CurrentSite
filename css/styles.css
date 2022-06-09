@@ -1,0 +1,83 @@
+.body {
+	margin: 0;
+}
+.logo {
+	height: auto;
+	padding-left: 14px;
+	width: 80%;
+}
+.f {
+	height: auto;
+	width: 20%;
+	position: absolute;
+	left: 895px;
+	top: 190px;
+}
+.name {
+	position: absolute;
+	left: 900px;
+	top: 540px;
+	padding: 30px;
+	background: black;
+	color: white;
+}
+.name h1 {
+	font-family: 'Corbel';
+	font-size: 50px;
+	line-height: 0.5;
+	letter-spacing: 2.5px;
+}
+.name p {
+	font-family: 'Corbel';
+	font-size: 25px;
+	letter-spacing: 5px;
+}
+.topnav {
+	position: fixed;
+}
+.topnav header {
+	display: block;
+	width: 14rem;
+	height: 100vh;
+	background: black;
+	margin: -9px;
+	padding-left: 10px;
+}
+.topnav ul {
+	list-style: none;
+	font-family: 'Corbel';
+	font-size: 25px;
+}
+.topnav ul li {
+	padding-top: 40px;
+	text-align: left;
+
+}
+.topnav ul li a {
+	text-decoration: none;
+	color: white;
+}
+.topnav ul li a:hover {
+	color: red;
+}
+.linked {
+	height: auto;
+	width: 40px;
+}
+.topnav {
+	animation: moveToLeft 1.5s ease-in;
+	animation: delay: 10ms;
+}
+.page {
+	animation: moveToLeft 1s ease-in;
+	animation-delay: 10ms;
+}
+
+@keyframes moveToLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
