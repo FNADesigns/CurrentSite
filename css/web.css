@@ -1,36 +1,11 @@
 .body {
 	margin: 0;
+	padding: 0;
 }
 .logo {
 	height: auto;
 	padding-left: 14px;
 	width: 80%;
-}
-.f {
-	height: auto;
-	width: 20%;
-	position: absolute;
-	left: 895px;
-	top: 190px;
-}
-.name {
-	position: absolute;
-	left: 900px;
-	top: 540px;
-	padding: 30px;
-	background: black;
-	color: white;
-}
-.name h1 {
-	font-family: 'Corbel';
-	font-size: 50px;
-	line-height: 0.5;
-	letter-spacing: 2.5px;
-}
-.name p {
-	font-family: 'Corbel';
-	font-size: 25px;
-	letter-spacing: 5px;
 }
 .topnav {
 	position: fixed;
@@ -72,6 +47,17 @@
 	top: 100px;
 
 }
+.toggle-button {
+	position: absolute;
+	display: none;
+}
+
+.toggle-button .bar{
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
 .topnav {
 	animation: moveToLeft 1.5s ease-in;
 	animation: delay: 10ms;
@@ -89,3 +75,62 @@
 		opacity: 100%;
 	}
 }
+@media screen and (min-width: 100px) and (max-width: 720px){
+	.topnav {
+		position: fixed;
+		z-index: 5;
+	}
+	.topnav header{
+		display: flex;
+		width: 100vh;
+		height: 10vh;
+		background: blueviolet;
+		flex-direction: column;
+		align-items: flex-start;
+		margin: -9px;
+		padding: 0px;
+	}
+	.topnav ul {
+		font-size: 20px;
+		background: #7A2BD7;
+		width: 100vh;
+		height: auto;
+		margin: -9px;
+		z-index: 4;
+
+	}
+	.logo {
+		padding-left: 10px;
+		height: auto;
+		width: 50%;
+	}
+	.list {
+		padding-left: 500px;
+		display: none;
+	}
+	
+	.list ul li {
+		width: 100vh;
+	}
+	.list.active{
+		display: flex;
+	}
+	.toggle-button {
+		display: flex;
+		position: absolute;
+		top: 10px;
+		left: 610px;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 65px;
+		height: 35px;
+	}
+	.boostd {
+	font-family: 'Corbel';
+	font-size: 20px;
+	position: absolute;
+	left: 100px;
+	top: 110px;
+
+}
+	}

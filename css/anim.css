@@ -126,6 +126,17 @@
 	left: 700px;
 	font-size: 18px;
 }
+.toggle-button {
+	position: absolute;
+	display: none;
+}
+
+.toggle-button .bar{
+	height: 3px;
+	width: 100%;
+	background-color: black;
+	border-radius: 10px;
+}
 .topnav {
 	animation: moveToLeft 1.5s ease-in;
 	animation: delay: 10ms;
@@ -143,3 +154,159 @@
 		opacity: 100%;
 	}
 }
+@media screen and (min-width: 100px) and (max-width: 720px){
+	.topnav {
+		position: fixed;
+		z-index: 5;
+	}
+	.topnav header{
+		display: flex;
+		width: 100vh;
+		height: 10vh;
+		background: #F7F89B;
+		flex-direction: column;
+		align-items: flex-start;
+		margin: -9px;
+		padding: 0px;
+	}
+	.topnav ul {
+		font-size: 20px;
+		background: #E3E486;
+		width: 100vh;
+		height: auto;
+		margin: -9px;
+		z-index: 4;
+
+	}
+	.logo {
+		padding-left: 10px;
+		height: auto;
+		width: 50%;
+	}
+	.list {
+		padding-left: 500px;
+		display: none;
+	}
+	
+	.list ul li {
+		width: 100vh;
+	}
+	.list.active{
+		display: flex;
+	}
+	.toggle-button {
+		display: flex;
+		position: absolute;
+		top: 10px;
+		left: 610px;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 65px;
+		height: 35px;
+	}
+.pixel {
+	position: absolute;
+	left: 20px;
+	top: 50px;
+}
+.pixel h2 {
+	font-family: 'Corbel';
+	position: absolute;
+	display: inline-block;
+	white-space: nowrap;
+	left: 350px;
+	top: 310px;
+	font-size: 25px;
+	color: white;
+}
+.pix{
+	position: absolute;
+	top: 100px;
+	left: -10px;
+	background: #F7F89B;
+	padding: 0;
+	width: 690px;
+	height: 277px;
+}
+.block {
+	position: absolute;
+	left: 200px;
+	top: 310px;
+}
+.corner {
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	display: none;
+}
+.corners {
+	position: absolute;
+	left: 1430px;
+	top: 500px;
+	display: none;
+}
+.pixexamp {
+	position: absolute;
+	left: 50px;
+}
+.bexam {
+	position: relative;
+	left: -45px;
+	top: 450px;
+	z-index: 1;
+	width: 690px;
+	height: 300px;
+}
+.pixy {
+	position: absolute;
+	top: 550px;
+	z-index: 2;
+	display: flex;
+}
+.pixy img {
+	width: 120px;
+}
+.blocky {
+	position: absolute;
+	top: 900px;
+	left: 0px;
+	z-index: 0;
+}
+.blocky h2 {
+	color: white;
+	z-index: 1;
+	position: absolute;
+	top: 400px;
+	left: 210px;
+	text-align: center;
+	font-family: 'Corbel';
+	font-size: 35px;
+}
+.vid {
+	position: absolute;
+	z-index: 1;
+	top: 550px;
+	left: 50px;
+}
+.vid iframe {
+	padding: 20px;
+}
+.vid h2 {
+	color: white;
+	position: relative;
+	top: -350px;
+	left: 700px;
+	z-index: 1;
+	display: none;
+}
+.vid p {
+	color: white;
+	z-index: 1;
+	position: relative;
+	top: -350px;
+	left: 700px;
+	font-size: 18px;
+	display: none;
+}
+}
+
