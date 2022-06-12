@@ -154,15 +154,15 @@
 		opacity: 100%;
 	}
 }
-@media screen and (min-width: 100px) and (max-width: 720px){
+@media screen and (min-width: 100px) and (max-width: 480px){
 	.topnav {
 		position: fixed;
 		z-index: 5;
 	}
 	.topnav header{
 		display: flex;
-		width: 100vh;
-		height: 10vh;
+		width: 480px;
+		height: 13vh;
 		background: #F7F89B;
 		flex-direction: column;
 		align-items: flex-start;
@@ -171,7 +171,7 @@
 	}
 	.topnav ul {
 		font-size: 20px;
-		background: #E3E486;
+		background: #E9EA89;
 		width: 100vh;
 		height: auto;
 		margin: -9px;
@@ -184,7 +184,7 @@
 		width: 50%;
 	}
 	.list {
-		padding-left: 500px;
+		padding-left: 280px;
 		display: none;
 	}
 	
@@ -198,7 +198,7 @@
 		display: flex;
 		position: absolute;
 		top: 10px;
-		left: 610px;
+		left: 390px;
 		flex-direction: column;
 		justify-content: space-between;
 		width: 65px;
@@ -214,7 +214,7 @@
 	position: absolute;
 	display: inline-block;
 	white-space: nowrap;
-	left: 350px;
+	left: 280px;
 	top: 310px;
 	font-size: 25px;
 	color: white;
@@ -251,10 +251,10 @@
 }
 .bexam {
 	position: relative;
-	left: -45px;
+	left: -50px;
 	top: 450px;
 	z-index: 1;
-	width: 690px;
+	width: 480px;
 	height: 300px;
 }
 .pixy {
@@ -264,7 +264,7 @@
 	display: flex;
 }
 .pixy img {
-	width: 120px;
+	width: 80px;
 }
 .blocky {
 	position: absolute;
@@ -277,7 +277,7 @@
 	z-index: 1;
 	position: absolute;
 	top: 400px;
-	left: 210px;
+	left: 110px;
 	text-align: center;
 	font-family: 'Corbel';
 	font-size: 35px;
@@ -286,7 +286,7 @@
 	position: absolute;
 	z-index: 1;
 	top: 550px;
-	left: 50px;
+	left: -20px;
 }
 .vid iframe {
 	padding: 20px;

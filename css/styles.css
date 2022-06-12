@@ -92,13 +92,15 @@
 		opacity: 100%;
 	}
 }
-@media screen and (min-width: 100px) and (max-width: 720px){
+@media screen and (min-width: 100px) and (max-width: 480px){
 	.topnav {
+		position: fixed;
+		z-index: 5;
 	}
 	.topnav header{
 		display: flex;
-		width: 100vh;
-		height: 10vh;
+		width: 480px;
+		height: 13vh;
 		background: black;
 		flex-direction: column;
 		align-items: flex-start;
@@ -107,10 +109,11 @@
 	}
 	.topnav ul {
 		font-size: 20px;
-		background: grey;
+		background: darkgrey;
 		width: 100vh;
 		height: auto;
 		margin: -9px;
+		z-index: 4;
 
 	}
 	.logo {
@@ -119,7 +122,7 @@
 		width: 50%;
 	}
 	.list {
-		padding-left: 500px;
+		padding-left: 280px;
 		display: none;
 	}
 	
@@ -133,24 +136,23 @@
 		display: flex;
 		position: absolute;
 		top: 10px;
-		left: 610px;
+		left: 390px;
 		flex-direction: column;
 		justify-content: space-between;
 		width: 65px;
 		height: 35px;
 	}
-	
 	.f {
 	height: 324px;
 	width: 324px;
 	position: absolute;
-	left: 225px;
-	top: 290px;
+	left: 70px;
+	top: 90px;
 }
 .name {
 	position: absolute;
-	left: 210px;
-	top: 580px;
+	left: 60px;
+	top: 414px;
 	padding: 30px;
 	background: black;
 	color: white;
