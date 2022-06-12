@@ -1,0 +1,324 @@
+.body {
+	margin: 0;
+}
+.logo {
+	height: auto;
+	padding-left: 14px;
+	width: 80%;
+	color: black;
+}
+.topnav {
+	position: fixed
+}
+.topnav header {
+	display: block;
+	width: 14rem;
+	height: 100vh;
+	background: #F7F89B;
+	margin: -9px;
+	padding-left: 10px;
+}
+.topnav ul {
+	list-style: none;
+	font-family: 'Corbel';
+	font-size: 25px;
+}
+.topnav ul li {
+	padding-top: 40px;
+	text-align: left;
+
+}
+.topnav ul li a {
+	text-decoration: none;
+	color: black;
+}
+.topnav ul li a:hover {
+	color: white;
+}
+.linked {
+	height: auto;
+	width: 40px;
+}
+.pixel {
+	position: absolute;
+	left: 200px;
+	top: 50px;
+}
+.pixel h2 {
+	font-family: 'Corbel';
+	position: absolute;
+	display: inline-block;
+	white-space: nowrap;
+	left: 750px;
+	top: 490px;
+	font-size: 35px;
+	color: white;
+}
+.pix{
+	position: absolute;
+	left: 150px;
+	background: #F7F89B;
+}
+.block {
+	position: absolute;
+	left: 575px;
+	top: 500px;
+}
+.corner {
+	position: absolute;
+	left: 130px;
+	top: -20px;
+}
+.corners {
+	position: absolute;
+	left: 1430px;
+	top: 500px;
+}
+.pixexamp {
+	position: absolute;
+	left: 350px;
+}
+.bexam {
+	position: relative;
+	left: 10px;
+	top: 600px;
+	z-index: 1;
+}
+.pixy {
+	position: absolute;
+	top: 750px;
+	z-index: 2;
+}
+.blocky {
+	position: absolute;
+	top: 1200px;
+	left: 233px;
+	z-index: 0;
+}
+.blocky img {
+	width: 100%;
+	height: 100%;
+}
+.blocky h2 {
+	color: white;
+	z-index: 1;
+	position: absolute;
+	top: 400px;
+	left: 40%;
+	text-align: center;
+	font-family: 'Corbel';
+	font-size: 35px;
+}
+.vid {
+	position: absolute;
+	z-index: 1;
+	top: 600px;
+	left: 100px;
+}
+.vid h2 {
+	color: white;
+	position: relative;
+	top: -350px;
+	left: 700px;
+	z-index: 1;
+}
+.vid p {
+	color: white;
+	z-index: 1;
+	position: relative;
+	top: -350px;
+	left: 700px;
+	font-size: 18px;
+}
+.toggle-button {
+	position: absolute;
+	display: none;
+}
+
+.toggle-button .bar{
+	height: 3px;
+	width: 100%;
+	background-color: black;
+	border-radius: 10px;
+}
+.topnav {
+	animation: moveToLeft 1.5s ease-in;
+	animation: delay: 10ms;
+}
+.page {
+	animation: moveToLeft 2.5s ease-in;
+	animation-delay: 10ms;
+}
+
+@keyframes moveToLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
+@media screen and (min-width: 360px) and (max-width: 480px){
+	.topnav {
+		position: fixed;
+		z-index: 5;
+	}
+	.topnav header{
+		display: flex;
+		width: 360px;
+		height: 13vh;
+		background: #F7F89B;
+		flex-direction: column;
+		align-items: flex-start;
+		margin: -9px;
+		padding: 0px;
+	}
+	.topnav ul {
+		font-size: 20px;
+		background: #E9EA89;
+		width: 100vh;
+		height: auto;
+		margin: -9px;
+		z-index: 4;
+
+	}
+	.logo {
+		padding-left: 10px;
+		height: auto;
+		width: 50%;
+	}
+	.list {
+		padding-left: 180px;
+		display: none;
+	}
+	
+	.list ul li {
+		width: 100vh;
+	}
+	.list.active{
+		display: flex;
+	}
+	.toggle-button {
+		display: flex;
+		position: absolute;
+		top: 10px;
+		left: 250px;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 65px;
+		height: 35px;
+	}
+.pixel {
+	position: absolute;
+	left: 20px;
+	top: 50px;
+}
+.pixel h2 {
+	font-family: 'Corbel';
+	position: absolute;
+	display: inline-block;
+	white-space: nowrap;
+	left: 200px;
+	top: 205px;
+	font-size: 20px;
+	color: white;
+}
+.pix{
+	position: absolute;
+	top: 100px;
+	left: -10px;
+	background: #F7F89B;
+	padding: 0;
+	width: 345px;
+	height: 138.5px;
+}
+.block {
+	position: absolute;
+	left: 180px;
+	top: 220px;
+	width: 200px;
+}
+.corner {
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	display: none;
+}
+.corners {
+	position: absolute;
+	left: 1430px;
+	top: 500px;
+	display: none;
+}
+.pixexamp {
+	position: absolute;
+	left: 50px;
+}
+.bexam {
+	position: relative;
+	left: -50px;
+	top: 250px;
+	z-index: 1;
+	width: 360px;
+	height: 300px;
+}
+.pixy {
+	position: absolute;
+	left: 0;
+	top: 350px;
+	z-index: 2;
+	display: flex;
+}
+.pixy img {
+	width: 60px;
+}
+.blocky {
+	position: absolute;
+	top: 310px;
+	left: 0px;
+	z-index: 0;
+}
+.blocky img {
+	width: 360px;
+	height: 1500px;
+}
+.blocky h2 {
+	color: white;
+	z-index: 1;
+	position: absolute;
+	top: 200px;
+	left: 60px;
+	text-align: center;
+	font-family: 'Corbel';
+	font-size: 35px;
+}
+.vid {
+	position: absolute;
+	z-index: 1;
+	top: 350px;
+	left: -20px;
+}
+.vid iframe {
+	width: 360px;
+	height: 240px;
+	padding: 20px;
+}
+.vid h2 {
+	color: white;
+	position: relative;
+	top: -350px;
+	left: 700px;
+	z-index: 1;
+	display: none;
+}
+.vid p {
+	color: white;
+	z-index: 1;
+	position: relative;
+	top: -350px;
+	left: 700px;
+	font-size: 18px;
+	display: none;
+}
+}
+
