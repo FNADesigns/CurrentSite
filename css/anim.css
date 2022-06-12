@@ -214,9 +214,9 @@
 	position: absolute;
 	display: inline-block;
 	white-space: nowrap;
-	left: 150px;
-	top: 310px;
-	font-size: 25px;
+	left: 200px;
+	top: 205px;
+	font-size: 20px;
 	color: white;
 }
 .pix{
@@ -225,13 +225,14 @@
 	left: -10px;
 	background: #F7F89B;
 	padding: 0;
-	width: 690px;
-	height: 277px;
+	width: 345px;
+	height: 138.5px;
 }
 .block {
 	position: absolute;
-	left: 80px;
-	top: 310px;
+	left: 180px;
+	top: 220px;
+	width: 200px;
 }
 .corner {
 	position: absolute;
@@ -252,7 +253,7 @@
 .bexam {
 	position: relative;
 	left: -50px;
-	top: 450px;
+	top: 250px;
 	z-index: 1;
 	width: 480px;
 	height: 300px;
@@ -260,7 +261,7 @@
 .pixy {
 	position: absolute;
 	left: 0;
-	top: 550px;
+	top: 350px;
 	z-index: 2;
 	display: flex;
 }
@@ -269,7 +270,7 @@
 }
 .blocky {
 	position: absolute;
-	top: 900px;
+	top: 310px;
 	left: 0px;
 	z-index: 0;
 }
@@ -281,7 +282,7 @@
 	color: white;
 	z-index: 1;
 	position: absolute;
-	top: 400px;
+	top: 200px;
 	left: 60px;
 	text-align: center;
 	font-family: 'Corbel';
@@ -290,7 +291,7 @@
 .vid {
 	position: absolute;
 	z-index: 1;
-	top: 550px;
+	top: 350px;
 	left: -20px;
 }
 .vid iframe {
