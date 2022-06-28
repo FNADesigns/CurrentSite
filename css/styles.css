@@ -10,12 +10,12 @@
 	height: auto;
 	width: 20%;
 	position: absolute;
-	left: 895px;
+	left: 455px;
 	top: 190px;
 }
 .name {
 	position: absolute;
-	left: 900px;
+	left: 450px;
 	top: 540px;
 	padding: 30px;
 	background: black;
@@ -31,6 +31,33 @@
 	font-family: 'Corbel';
 	font-size: 25px;
 	letter-spacing: 5px;
+}
+.about {
+	position:  absolute;
+	left: 900px;
+	top: 200px;
+	border: solid;
+	border-radius: 5px;
+	border-color: black;
+	padding-left: 20px;
+	padding-right: 10px;
+
+}
+.about h2 {
+	font-family: 'Corbel';
+	font-size: 30px;
+}
+.about h3 {
+	font-family: 'Corbel';
+	font-size: 30px;
+}
+.about ul {
+	font-family: 'Corbel';
+	font-size: 18px;
+}
+.about p {
+	font-family: 'Corbel';
+	font-size: 18px;
 }
 .topnav {
 	position: fixed;
